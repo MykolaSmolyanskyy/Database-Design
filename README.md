@@ -1,5 +1,5 @@
 # Database-Design
-Describe common aspects of database design
+*Describes common aspects of database design*
 
 1.	Entities
 
