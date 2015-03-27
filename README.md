@@ -3,7 +3,7 @@
 
 ###Definitions
 
-*Problem space* - specific set of objects and interactions that limits the design of the database system.
+**Problem space** - specific set of objects and interactions that limits the design of the database system.
 
 Data model - conceptually describes the problem space (entities, their attributes, relationships, constraints).
 
