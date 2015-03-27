@@ -1,5 +1,5 @@
 #Database design
-##*Short notes on database design topics.
+##Short notes on database design topics.
 
 ###Definitions
 
@@ -41,36 +41,36 @@
 
 #The Relational Model
 
-##*defines data structure, data integrity and data manipulation rules
+##defines data structure, data integrity and data manipulation rules
 
 ###Main characteristics of relational DBMS:
 
--all data is conceptually represented as a relation
--at any given position in the relation there is one and only one value
--all operations are performed on an entire relation and result in an entire relation
+- all data is conceptually represented as a relation
+- at any given position in the relation there is one and only one value
+- all operations are performed on an entire relation and result in an entire relation
 ###Normalization forms
 
--First normal form (1NF)
+- First normal form (1NF)
 
 Each attribute of a tuple must contain a single value.
 
--Second normal form (2NF)
+- Second normal form (2NF)
 
 The relation must be in first normal form and all its attributes must depend on the entire candidate key, not on the part of it.
 
--Third normal form(3NF)
+- Third normal form(3NF)
 
 The relation must be in second normal form and all its non-key attributes must be mutually independent.
 
--Boyce/Codd normal form (BCNF)
+- Boyce/Codd normal form (BCNF)
 
 The relation must be in second normal form. There must be no functional dependencies between candidate keys.
 
--Fourth normal form (4NF)
+- Fourth normal form (4NF)
 
 The relation must be in Boyce/Codd normal form and independent repeating groups must not be combined in a single relation.
 
--Fifth normal form (5NF)
+- Fifth normal form (5NF)
 
 A relation is in the 5NF if decomposing it would not remove any redundancies.
 
